@@ -1,0 +1,41 @@
+.PokemonList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 3rem ;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem 3rem ;
+}
+
+
+
+@media screen  and ( min-width : 750px) {
+    .PokemonList {
+        grid-template-columns: repeat(4 , 200px);
+    }
+};
+
+@media screen  and ( min-width : 1240px) {
+    .PokemonList {
+        grid-template-columns: repeat(3 , 250px);
+    }
+};
+
+@media screen  and ( min-width : 1680px) {
+    .PokemonList {
+        grid-template-columns: repeat(4 , 250px);
+    }
+}
+
+
+.pokedux2 {
+    background-color: #ffd857;
+    background-image: linear-gradient(200deg, #ffd857 0%, #ff5a00 100%);
+  
+  }
+
+
+.colorText {
+    color: black;
+}  
